@@ -1,0 +1,30 @@
+{
+    "name": "email-warmer",
+    "version": "1.0.0",
+    "description": "Email Warming Network Application",
+    "main": "src/email-network-warmer.js",
+    "scripts": {
+        "start": "node src/email-network-warmer.js",
+        "start:production": "pm2 start ecosystem.config.js",
+        "encrypt-config": "node scripts/encrypt-config.js",
+        "backup": "bash scripts/backup.sh",
+        "monitor": "bash scripts/monitor.sh",
+        "test": "jest",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "dotenv": "^16.3.1",
+        "imap": "^0.8.19",
+        "mailparser": "^3.5.0",
+        "node-schedule": "^2.1.1",
+        "nodemailer": "^6.9.5"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "jest": "^29.6.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
