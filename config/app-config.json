@@ -1,0 +1,36 @@
+# config/app-config.json
+{
+    "scheduling": {
+        "enabled": true,
+        "timeZone": "UTC",
+        "schedules": [
+            {
+                "time": "9:00",
+                "days": "1-5"
+            },
+            {
+                "time": "12:00",
+                "days": "1-5"
+            },
+            {
+                "time": "15:00",
+                "days": "1-5"
+            },
+            {
+                "time": "17:00",
+                "days": "1-5"
+            }
+        ]
+    },
+    "emailLimits": {
+        "minDaily": 3,
+        "maxDaily": 7,
+        "minInterval": 30,
+        "maxInterval": 120
+    },
+    "monitoring": {
+        "enabled": true,
+        "errorThreshold": 5,
+        "alertEmail": "admin@yourdomain.com"
+    }
+}

@@ -1,0 +1,52 @@
+# config/email-config.json
+{
+    "domain1": {
+        "name": "First Domain",
+        "smtpHost": "smtp.domain1.com",
+        "smtpPort": 465,
+        "imapHost": "imap.domain1.com",
+        "imapPort": 993,
+        "emails": [
+            {
+                "email": "email1@domain1.com",
+                "password": "pass1",
+                "displayName": "Account 1"
+            },
+            {
+                "email": "email2@domain1.com",
+                "password": "pass2",
+                "displayName": "Account 2"
+            },
+            {
+                "email": "email3@domain1.com",
+                "password": "pass3",
+                "displayName": "Account 3"
+            }
+        ]
+    },
+    "domain2": {
+        "name": "Second Domain",
+        "smtpHost": "smtp.domain2.com",
+        "smtpPort": 465,
+        "imapHost": "imap.domain2.com",
+        "imapPort": 993,
+        "emails": [
+            {
+                "email": "email1@domain2.com",
+                "password": "pass4",
+                "displayName": "Account 4"
+            },
+            {
+                "email": "email2@domain2.com",
+                "password": "pass5",
+                "displayName": "Account 5"
+            },
+            {
+                "email": "email3@domain2.com",
+                "password": "pass6",
+                "displayName": "Account 6"
+            }
+        ]
+    }
+}
+

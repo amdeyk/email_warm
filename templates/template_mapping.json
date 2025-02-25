@@ -1,0 +1,10 @@
+// templates/template_mapping.json
+{
+    "market_analysis_01": {
+        "category": "market_analysis",
+        "replies": [
+            "market_analysis_reply_01",
+            "market_analysis_reply_02"
+        ]
+    }
+}
