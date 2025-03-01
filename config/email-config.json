@@ -1,52 +1,97 @@
-# config/email-config.json
 {
-    "domain1": {
-        "name": "First Domain",
-        "smtpHost": "smtp.domain1.com",
-        "smtpPort": 465,
-        "imapHost": "imap.domain1.com",
-        "imapPort": 993,
-        "emails": [
-            {
-                "email": "email1@domain1.com",
-                "password": "pass1",
-                "displayName": "Account 1"
-            },
-            {
-                "email": "email2@domain1.com",
-                "password": "pass2",
-                "displayName": "Account 2"
-            },
-            {
-                "email": "email3@domain1.com",
-                "password": "pass3",
-                "displayName": "Account 3"
-            }
-        ]
-    },
-    "domain2": {
-        "name": "Second Domain",
-        "smtpHost": "smtp.domain2.com",
-        "smtpPort": 465,
-        "imapHost": "imap.domain2.com",
-        "imapPort": 993,
-        "emails": [
-            {
-                "email": "email1@domain2.com",
-                "password": "pass4",
-                "displayName": "Account 4"
-            },
-            {
-                "email": "email2@domain2.com",
-                "password": "pass5",
-                "displayName": "Account 5"
-            },
-            {
-                "email": "email3@domain2.com",
-                "password": "pass6",
-                "displayName": "Account 6"
-            }
-        ]
-    }
+  "qubixvirtual.in": {
+    "name": "Qubix Virtual",
+    "smtpHost": "mail.qubixvirtual.in",
+    "smtpPort": 465,
+    "imapHost": "mail.qubixvirtual.in",
+    "imapPort": 993,
+    "emails": [
+      {
+        "email": "mktg@qubixvirtual.in",
+        "password": "enc:1b1655ecb8441706c94174aa69d73bc0:1005ac38f5d135e8871ef2e4a9:df0065510f56abcb5ac73e85f7432760",
+        "displayName": "Marketing Qubix Virtual"
+      },
+      {
+        "email": "anirban@qubixvirtual.in",
+        "password": "enc:4a80c46c818a032cf597ba5918e84640:6ca0276ad8eb31061a01de3193:21e97cd6394150dc3b35ded78497bee0",
+        "displayName": "Anirban Qubix Virtual"
+      }
+    ]
+  },
+  "astroloje.com": {
+    "name": "Astroloje",
+    "smtpHost": "mail.astroloje.com",
+    "smtpPort": 465,
+    "imapHost": "mail.astroloje.com",
+    "imapPort": 993,
+    "emails": [
+      {
+        "email": "mktg@astroloje.com",
+        "password": "enc:c08d61ea6ac03f649df72f73917e0b40:1714559054b98520f1f26d5cf5:036e813619b05857af3011994adf1518",
+        "displayName": "Marketing Astroloje"
+      },
+      {
+        "email": "preeti@astroloje.com",
+        "password": "enc:fd207ef2f765f0b11b940129966c9e9f:dd70f773f99c3de5d80884ee24:16d261afd13add735919244af0e74651",
+        "displayName": "Preeti Astroloje"
+      },
+      {
+        "email": "revati@astroloje.com",
+        "password": "enc:211ef8083972e066a08a7ce9fcd0e5d5:582219f63f94866c3dbe7f32ef:58354a99ba17220b8dc6b638d17e72ca",
+        "displayName": "Revati Astroloje"
+      }
+    ]
+  },
+  "artoftrade.in": {
+    "name": "Art of Trade",
+    "smtpHost": "mail.artoftrade.in",
+    "smtpPort": 465,
+    "imapHost": "mail.artoftrade.in",
+    "imapPort": 993,
+    "emails": [
+      {
+        "email": "marketing@artoftrade.in",
+        "password": "enc:407109a7f0a8fda8e4667ccc383d8c56:6777aa6e5d950f8e95a65bcfc3:70ce6d421d314cb00cf408a6d8ec1ce0",
+        "displayName": "Marketing Art of Trade"
+      },
+      {
+        "email": "sagnik@artoftrade.in",
+        "password": "enc:4497a61e76dbcb3f2ad6de3a3f1527b7:4e1755ff6b2cd9fc3e464aa4c6:f1aee6c998dcbf655912d00957944371",
+        "displayName": "Sagnik Art of Trade"
+      }
+    ]
+  },
+  "vconference.live": {
+    "name": "VConference Live",
+    "smtpHost": "mail.vconference.live",
+    "smtpPort": 465,
+    "imapHost": "mail.vconference.live",
+    "imapPort": 993,
+    "emails": [
+      {
+        "email": "sales@vconference.live",
+        "password": "enc:8e2d69e1136c466593d97347a447de4d:c3d78d3603b70ca86d0d722880:5e2eac1cd707f5ca4e527dfa682014ca",
+        "displayName": "Sales VConference Live"
+      }
+    ]
+  },
+  "qubixsolutions.in": {
+    "name": "Qubix Solutions",
+    "smtpHost": "mail.qubixsolutions.in",
+    "smtpPort": 465,
+    "imapHost": "mail.qubixsolutions.in",
+    "imapPort": 993,
+    "emails": [
+      {
+        "email": "marketing@qubixsolutions.in",
+        "password": "enc:4cc7f2900d0ea125d72b665620210d3d:af83e12b7060e5a803a475bb:959547ee37b9d84d5521974da7316d2c",
+        "displayName": "Marketing Qubix Solutions"
+      },
+      {
+        "email": "centralmarketing1@qubixsolutions.in",
+        "password": "enc:ee0b88909ae17a69f710ed6d6886e436:85345451a546a2869421e01e:8eb8d227a04a42c7a106a56818d3a625",
+        "displayName": "Central Marketing Qubix Solutions"
+      }
+    ]
+  }
 }
-

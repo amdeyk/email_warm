@@ -1,8 +1,7 @@
-// src/lib/ConfigLoader.js
+require('dotenv').config({ path: '/home/ambar/git_various/email_warm/.env' });
 const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto');
-require('dotenv').config();
 
 class ConfigLoader {
     constructor() {

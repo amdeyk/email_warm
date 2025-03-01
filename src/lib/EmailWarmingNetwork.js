@@ -1,6 +1,7 @@
 // src/lib/EmailWarmingNetwork.js
 const EventEmitter = require('events');
 const schedule = require('node-schedule');
+const { EmailAccount } = require('./EmailAccount');
 
 class EmailWarmingNetwork extends EventEmitter {
     constructor(appConfig) {
@@ -49,4 +50,4 @@ class EmailWarmingNetwork extends EventEmitter {
     }
 }
 
-module.exports = { EmailAccount, EmailWarmingNetwork };
+module.exports = EmailWarmingNetwork;

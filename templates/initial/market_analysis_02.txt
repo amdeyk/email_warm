@@ -1,0 +1,18 @@
+// templates/initial/market_analysis_02.txt
+subject: Emerging Market Trends - A Quick Overview
+category: market_analysis
+tone: conversational
+context: initial
+---
+Hey [Name],
+
+I came across some intriguing market trends and thought of sharing them with you:
+
+1. [Interesting Market Insight]
+2. [New Industry Development]
+3. [Potential Impact on Businesses]
+
+Would love to hear your take on these trends. Let me know if you're open to discussing this further.
+
+Cheers,  
+[Your Name]

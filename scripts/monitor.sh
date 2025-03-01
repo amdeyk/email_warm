@@ -12,8 +12,8 @@ pm2 status
 echo "Memory Usage:"
 free -h
 echo "Disk Usage:"
-df -h /opt/email-warmer
+df -h /home/ambar/git_various/email_warm/
 
 # Check logs
-tail -n 20 /opt/email-warmer/logs/error.log
+tail -n 20 /home/ambar/git_various/email_warm/logs/error.log
 

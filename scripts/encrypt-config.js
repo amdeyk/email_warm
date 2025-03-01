@@ -1,4 +1,3 @@
-# scripts/encrypt-config.js
 const ConfigLoader = require('../src/lib/ConfigLoader');
 
 async function encryptConfig() {

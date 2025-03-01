@@ -86,3 +86,4 @@ class EmailAccount {
     }
 }
 
+module.exports = { EmailAccount };

@@ -1,4 +1,3 @@
-# config/app-config.json
 {
     "scheduling": {
         "enabled": true,
@@ -23,14 +22,14 @@
         ]
     },
     "emailLimits": {
-        "minDaily": 3,
-        "maxDaily": 7,
+        "minDaily": 1,
+        "maxDaily": 2,
         "minInterval": 30,
         "maxInterval": 120
     },
     "monitoring": {
         "enabled": true,
         "errorThreshold": 5,
-        "alertEmail": "admin@yourdomain.com"
+        "alertEmail": "ambarish.dey@gmail.com"
     }
 }

@@ -1,0 +1,19 @@
+// templates/reply/market_analysis_reply_02.txt
+subject: Re: {original_subject}
+category: market_analysis
+tone: friendly
+context: reply
+parent_template: market_analysis_02
+---
+Hey [Name],
+
+Thanks for sharing! These trends are indeed fascinating.
+
+I’ve also been tracking [Industry Development] and think it could have a huge impact. Additionally:
+- [Another Insight]
+- [Potential Challenge]
+- [Collaboration Opportunity]
+
+Let’s catch up and dive deeper into this.
+
+Best,  

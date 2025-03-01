@@ -1,4 +1,3 @@
-// templates/template_mapping.json
 {
     "market_analysis_01": {
         "category": "market_analysis",
@@ -6,5 +5,13 @@
             "market_analysis_reply_01",
             "market_analysis_reply_02"
         ]
+    },
+    "market_analysis_02": {
+        "category": "market_analysis",
+        "replies": [
+            "market_analysis_reply_01",
+            "market_analysis_reply_02"
+        ]
     }
 }
+
