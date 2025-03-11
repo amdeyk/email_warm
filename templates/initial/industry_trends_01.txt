@@ -1,0 +1,17 @@
+subject: Transformative Trends in [Industry]
+category: industry_trends
+tone: informative
+context: initial
+---
+Hello [Name],
+
+I'm conducting a comprehensive analysis of emerging trends in [Industry]. I've identified three transformative developments:
+
+1. [First Industry Trend]
+2. [Second Industry Trend]
+3. [Third Industry Trend]
+
+Would you be interested in sharing your perspective?
+
+Best regards,
+[Your Name]

@@ -1,0 +1,14 @@
+subject: Re: Potential Collaboration Opportunity
+category: professional_collaboration
+tone: collaborative
+context: reply
+parent_template: professional_collaboration_01
+---
+Thank you for reaching out.
+
+Your proposal sounds intriguing. I see potential synergies in [Specific Area]. Perhaps we could schedule a 15-minute call to explore how we might work together?
+
+Looking forward to your thoughts.
+
+Best regards,
+[Name]

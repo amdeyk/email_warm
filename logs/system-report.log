@@ -1,0 +1,33 @@
+==== EMAIL WARMING SYSTEM REPORT ====
+Generated: 2025-03-11 04:00:01
+
+=== SERVICE STATUS ===
+✅ email-warmer service is RUNNING
+  Uptime: 0d 0h 0m
+  Restarts: 449230
+
+=== SYSTEM RESOURCES ===
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       434Mi       458Mi       1.0Mi       2.9Gi       3.1Gi
+Swap:          4.0Gi       4.0Mi       4.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       140G   16G  118G  12% /
+
+=== RECENT ERRORS ===
+Total errors: 28
+Most recent errors:
+[2025-03-04T04:15:09.968Z] ERROR: Failed to add account: Cannot read properties of undefined (reading 'split')
+[2025-03-04T04:15:10.552Z] ERROR: Failed to add account: Cannot read properties of undefined (reading 'split')
+[2025-03-04T04:15:11.128Z] ERROR: Failed to add account: Cannot read properties of undefined (reading 'split')
+[2025-03-04T04:15:11.690Z] ERROR: Failed to add account: Cannot read properties of undefined (reading 'split')
+[2025-03-04T04:15:12.310Z] ERROR: Failed to add account: Cannot read properties of undefined (reading 'split')
+
+=== EMAIL STATISTICS (LAST 24 HOURS) ===
+Emails sent today: 0
+Last 5 emails sent:
+
+=== UPCOMING SCHEDULED TASKS ===
+Next scheduled run: 9:00

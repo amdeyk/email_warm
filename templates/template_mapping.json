@@ -12,6 +12,60 @@
             "market_analysis_reply_01",
             "market_analysis_reply_02"
         ]
+    },
+    "market_analysis_01": {
+        "category": "market_analysis",
+        "replies": [
+            "market_analysis_reply_01",
+            "market_analysis_reply_02"
+        ]
+    },
+    "market_analysis_02": {
+        "category": "market_analysis",
+        "replies": [
+            "market_analysis_reply_01",
+            "market_analysis_reply_02"
+        ]
+    },
+    "professional_collaboration_01": {
+        "category": "professional_collaboration",
+        "replies": ["professional_collaboration_reply_01"]
+    },
+    "tech_innovation_01": {
+        "category": "tech_innovation",
+        "replies": ["tech_innovation_reply_01"]
+    },
+    "networking_opportunity_01": {
+        "category": "networking",
+        "replies": ["networking_reply_01"]
+    },
+    "research_insight_01": {
+        "category": "research_innovation",
+        "replies": ["research_insight_reply_01"]
+    },
+    "industry_trends_01": {
+        "category": "industry_trends",
+        "replies": ["industry_trends_reply_01"]
+    },
+    "sustainability_innovation_01": {
+        "category": "sustainability",
+        "replies": ["sustainability_reply_01"]
+    },
+    "digital_transformation_01": {
+        "category": "digital_transformation",
+        "replies": ["digital_transformation_reply_01"]
+    },
+    "global_business_01": {
+        "category": "global_business",
+        "replies": ["global_business_reply_01"]
+    },
+    "ai_innovation_01": {
+        "category": "ai_innovation",
+        "replies": ["ai_innovation_reply_01"]
+    },
+    "startup_ecosystem_01": {
+        "category": "startup_innovation",
+        "replies": ["startup_ecosystem_reply_01"]
     }
 }
 

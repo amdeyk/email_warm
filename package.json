@@ -10,7 +10,9 @@
         "backup": "bash scripts/backup.sh",
         "monitor": "bash scripts/monitor.sh",
         "test": "jest",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "monitor:emails": "node scripts/monitor-emails.js",
+        "monitor:system": "bash scripts/system-monitor.sh"
     },
     "dependencies": {
         "crypto": "^1.0.1",

@@ -1,0 +1,13 @@
+subject: Potential Collaboration Opportunity
+category: professional_collaboration
+tone: professional
+context: initial
+---
+Dear [Name],
+
+I hope this email finds you well. I recently came across your work in [Industry/Field] and was impressed by [Specific Achievement].
+
+I believe there might be an interesting opportunity for collaboration that could benefit both our organizations. Would you be open to a brief discussion?
+
+Best regards,
+[Your Name]

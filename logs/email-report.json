@@ -1,0 +1,15 @@
+{
+  "totalSent": 0,
+  "byDomain": {},
+  "byAccount": {},
+  "byPair": {},
+  "byDate": {},
+  "lastActivity": null,
+  "summary": {
+    "period": "7 days",
+    "dailyAverage": "0.00",
+    "activeDays": 1,
+    "startDate": "No activity",
+    "endDate": "No activity"
+  }
+}

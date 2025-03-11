@@ -12,9 +12,18 @@ async function main() {
         // Initialize network with configurations
         const network = new EmailWarmingNetwork(appConfig);
         
+        // Track added accounts to prevent duplicates
+        const addedEmails = new Set();
+
         // Add accounts from config
         Object.entries(emailConfig).forEach(([domainName, domainConfig]) => {
             domainConfig.emails.forEach(emailConfig => {
+                // Skip if already added
+                if (addedEmails.has(emailConfig.email)) {
+                    console.log(`Skipping duplicate account: ${emailConfig.email}`);
+                    return;
+                }
+                
                 network.addAccount({
                     ...emailConfig,
                     smtpHost: domainConfig.smtpHost,
@@ -23,6 +32,9 @@ async function main() {
                     imapPort: domainConfig.imapPort,
                     domainName
                 });
+                
+                // Mark as added
+                addedEmails.add(emailConfig.email);
             });
         });
 

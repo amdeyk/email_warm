@@ -1,0 +1,17 @@
+subject: Re: Global Business Insights
+category: global_business
+tone: worldly
+context: reply
+parent_template: global_business_01
+---
+Your global observations are fascinating.
+
+From my international network, I've noticed:
+- [Regional Business Trend]
+- [Cultural Business Insight]
+- [Emerging Market Opportunity]
+
+Let's connect further.
+
+Best,
+[Name]

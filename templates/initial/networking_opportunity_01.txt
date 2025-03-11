@@ -1,0 +1,14 @@
+subject: Professional Development Insights
+category: networking
+tone: friendly
+context: initial
+---
+Hi [Name],
+
+I noticed we're both connected in the [Professional Network/Industry] and thought I'd reach out.
+
+I'm curious about your perspective on professional growth in our field. What strategies have you found most effective for continuous learning?
+
+Warm regards,
+[Your Name]
+

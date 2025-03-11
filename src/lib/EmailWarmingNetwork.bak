@@ -12,57 +12,21 @@ class EmailWarmingNetwork extends EventEmitter {
         this.accounts = new Map();
         this.conversationLog = new Map();
         this.appConfig = appConfig;
-        this.logger = new Logger({ verbose: true });
-        this.templates = { initial: [], reply: [] };
         this.setupTemplates();
+        this.logger = new Logger({ verbose: true });
     }
 
     async setupTemplates() {
         try {
-            this.templates.initial = await this.loadTemplates('initial');
-            this.templates.reply = await this.loadTemplates('reply');
+            this.templates = {
+                initial: await this.loadTemplates('initial'),
+                reply: await this.loadTemplates('reply')
+            };
         } catch (error) {
             console.error("Error loading templates:", error);
+            this.templates = { initial: [], reply: [] };
         }
     }
-
-    async loadTemplates(type) {
-        try {
-            const templatesDir = path.join(__dirname, '../../templates', type);
-            const files = await fs.readdir(templatesDir);
-            const templates = [];
-
-            for (const file of files) {
-                if (file.endsWith('.txt')) {
-                    const content = await fs.readFile(path.join(templatesDir, file), 'utf8');
-                    templates.push({ name: file.replace('.txt', ''), content });
-                }
-            }
-
-            return templates;
-        } catch (error) {
-            console.error(`Error loading ${type} templates:`, error);
-            return [];
-        }
-    }
-    
-
-    addAccount(config) {
-    try {
-        if (!config.email) {
-            throw new Error("Email is required in config");
-        }
-        
-        // Pass the entire config object as a single parameter
-        const account = new EmailAccount(config);
-        this.accounts.set(config.email, account);
-        this.logger.log(`Added account: ${config.email}`);
-        return account;
-    } catch (error) {
-        this.logger.error(`Failed to add account: ${error.message}`);
-        throw error;
-    }
-}
 
     setupSchedules(scheduleConfig) {
         if (!scheduleConfig || !scheduleConfig.enabled || !scheduleConfig.schedules) {
@@ -117,7 +81,7 @@ class EmailWarmingNetwork extends EventEmitter {
 
             if (success) {
                 this.logConversation(senderEmail, recipientEmail, subject, template.name);
-                await fs.appendFile("/home/ambar/git_various/email_warm/logs/email-sent.log", 
+                fs.appendFile("/home/ambar/git_various/email_warm/logs/email-sent.log", 
                     `${new Date().toISOString()} - Sent email from ${senderEmail} to ${recipientEmail}\n`);
                 return true;
             }
